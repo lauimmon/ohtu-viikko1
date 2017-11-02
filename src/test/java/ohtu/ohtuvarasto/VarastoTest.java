@@ -10,7 +10,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class VarastoTest {
+public class VarastoTest { // testaa Varasto-luokkaa
 
     Varasto varasto;
     double vertailuTarkkuus = 0.0001;
