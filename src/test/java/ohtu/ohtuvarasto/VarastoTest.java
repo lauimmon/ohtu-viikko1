@@ -137,7 +137,7 @@ public class VarastoTest { // testaa Varasto-luokkaa
         
         double saatuMaara = varasto.otaVarastosta(-1);
         
-        assertEquals(-1, saatuMaara, vertailuTarkkuus);
+        assertEquals(0, saatuMaara, vertailuTarkkuus);
     }
 
     @Test
