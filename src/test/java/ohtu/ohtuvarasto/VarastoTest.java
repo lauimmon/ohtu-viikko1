@@ -136,6 +136,7 @@ public class VarastoTest { // testaa Varasto-luokkaa
         varasto.lisaaVarastoon(8);
         
         double saatuMaara = varasto.otaVarastosta(-1);
+        // ei ota huomioon negatiivista arvoa ja korvaa sen nollalla
         
         assertEquals(0, saatuMaara, vertailuTarkkuus);
     }
