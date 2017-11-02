@@ -127,6 +127,8 @@ public class VarastoTest { // testaa Varasto-luokkaa
         varasto.lisaaVarastoon(8);
         
         double saatuMaara = varasto.otaVarastosta(10);
+        // lisää liian ison arvon
+       
         
         assertEquals(8, saatuMaara, vertailuTarkkuus);
     }
